@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="zh-hant">
 
@@ -43,25 +31,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Homework</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Homeworks
+                  Dropdown
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../0304/index.html">0304</a></li>
-                  <li><a class="dropdown-item" href="../0311/index.html">0311</a></li>
-                  <li><a class="dropdown-item" href="../0318/index.html">0318</a></li>
-                  <li><a class="dropdown-item" href="../0325/index.html">0325</a></li>
-                  <li><a class="dropdown-item" href="../0408/index.html">0408</a></li>
-                  <li><a class="dropdown-item" href="../0415/index.html">0415</a></li>
-
-
-
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
@@ -101,86 +82,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yoga's Website</title>
-
-<!-- 引入bootstrap -->
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>    
-
-<!--引入 Google Fonts 字型-->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <style>
-         
-        .bungee-tint-caption {
-        font-family: "Bungee Tint", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-        color: #03045e;
-}     
-
-        .oswald-maincontent {
-        font-family: "Oswald", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
-        color: #0077b6;
-}
-
-  .lxgw-wenkai-tc-regular {
-  font-family: "LXGW WenKai TC", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-
-       
-    </style>
-</head>
-
-<body class="oswald-maincontent">
-
-    <!-- Content -->
-     
-    </div class="container">
-  
-    </div>
-
-
-    <!-- Footer -->
-     <div>
-        <footer class="text-center text-ig-start bg-light text-muted">
-          <div class="text-center p-4"> 
-            @ 2025 Copyright
-
-
-          </div>
-
-
-        </footer>
-
-
-     </div>
-    
-    
-
 </body>
 
 </html>
