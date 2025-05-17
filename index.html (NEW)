@@ -202,3 +202,253 @@
 </body>
 
 </html>
+
+<--!原0325可參考一下-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>五首唐詩</title>
+  <!--引入 Google Fonts 字型-->
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+
+<!-- 英文字體：Winky Rough -->
+<link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+  rel="stylesheet">
+
+<!-- 中文字體：LXGW WenKai Mono TC -->
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+
+
+<style>
+  body {
+    font-family: "Winky Rough", "LXGW WenKai Mono TC", sans-serif;
+    font-size: 1.25rem;
+  }
+
+  .navbar-brand,
+  .nav-link,
+  .dropdown-menu,
+  footer {
+    font-size: 1.3rem;
+  }
+</style>
+
+
+
+<body align="center">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/Yoga (64 x 64 像素).jpg" width="64" height="64">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+          <!-- Homeworks Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Homeworks
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../0304/index.html">0304</a></li>
+              <li><a class="dropdown-item" href="../0311/index.html">0311</a></li>
+              <li><a class="dropdown-item" href="../0318/index.html">0318</a></li>
+              <li><a class="dropdown-item" href="../0325/index.html">0325</a></li>
+              <li><a class="dropdown-item" href="../0408/index.html">0408</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+
+        <!-- 搜尋框 -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+    crossorigin="anonymous"></script>
+
+
+  ----1
+  <div class="col-md-3 offset-md-1">
+    <div class="card h-100 ">
+      <img src="img/李白靜夜思.png" class="card-img-top" alt="Example Image">
+      <div class="card-body">
+        <h1 class="card-title">靜夜思-李白</h1>
+       <div id="maincontent" class="oswald-maincontent">
+            床前明月光，<br />
+            疑是地上霜。<br />
+            舉頭望明月，<br />
+            低頭思故鄉。
+          </div>
+        <!-- <a href="0325/index.html" class="btn btn-primary d-block mx-auto">Click Here</a> -->
+      </div>
+    </div>
+  </div>
+  ----2
+  <div class="col-md-3 offset-md-1">
+    <div class="card h-100 ">
+      <img src="img/登鸛雀樓.png" class="card-img-top" alt="Example Image">
+      <div class="card-body">
+        <h1 class="card-title">登鸛雀樓 - 王之渙</h1>
+       <div id="maincontent" class="oswald-maincontent">
+            白日依山盡，<br />
+            黄河入海流。<br />
+            欲窮千里目，<br />
+            更上一層樓。
+          </div>
+        <!-- <a href="0325/index.html" class="btn btn-primary d-block mx-auto">Click Here</a> -->
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container text-center">
+    <div class="card">
+      <div class="col-md-3">
+        <div id="mycard">
+          <div id="mymedia">
+            <!-- 使用圖片代替影片 -->
+            <img src="img/李白靜夜思.png" alt="靜夜思" class="img-fluid" width="256" height="256">
+          </div>
+          <div id="caption" class="bungee-tint-caption">
+            <h1>靜夜思 - 李白</h1>
+          </div>
+          <div id="maincontent" class="oswald-maincontent">
+            床前明月光，<br />
+            疑是地上霜。<br />
+            舉頭望明月，<br />
+            低頭思故鄉。
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div id="mycard">
+          <div id="mymedia">
+            <!-- 使用圖片代替影片 -->
+            <img src="img/登鸛雀樓.png" alt="登鸛雀樓" class="img-fluid" width="256" height="256">
+          </div>
+          <div id="caption" class="bungee-tint-caption">
+            <h1>登鸛雀樓 - 王之渙</h1>
+          </div>
+          <div id="maincontent" class="oswald-maincontent">
+            白日依山盡，<br />
+            黄河入海流。<br />
+            欲窮千里目，<br />
+            更上一層樓。
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div id="mycard">
+          <div id="mymedia">
+            <!-- 使用圖片代替影片 -->
+            <img src="img/杜甫 春望.png" alt="春望" class="img-fluid" width="256" height="256">
+          </div>
+          <div id="caption" class="bungee-tint-caption">
+            <h1>春望 - 杜甫</h1>
+          </div>
+          <div id="maincontent" class="oswald-maincontent">
+            國破山河在，<br />
+            城春草木深。<br />
+            感時花濺淚，<br />
+            恨别鳥驚心。<br />
+            烽火連三月，<br />
+            家書抵萬金。<br />
+            白頭搔更短，<br />
+            渾欲不勝簪。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div id="mycard">
+          <div id="mymedia">
+            <!-- 使用圖片代替影片 -->
+            <img src="img/春曉.png" alt="春曉" class="img-fluid" width="256" height="256">
+          </div>
+          <div id="caption" class="bungee-tint-caption">
+            <h1>春曉 - 孟浩然</h1>
+          </div>
+          <div id="maincontent" class="oswald-maincontent">
+            春眠不覺曉，<br />
+            處處聞啼鳥。<br />
+            夜來風雨聲，<br />
+            花落知多少。
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div id="mycard">
+          <div id="mymedia">
+            <!-- 使用圖片代替影片 -->
+            <img src="img/柳宗元.png" alt="江雪" class="img-fluid" width="256" height="256">
+          </div>
+          <div id="caption" class="bungee-tint-caption">
+            <h1>江雪 - 柳宗元</h1>
+          </div>
+          <div id="maincontent" class="oswald-maincontent">
+            千山鳥飛絕，<br />
+            萬徑人蹤滅。<br />
+            孤舟蓑笠翁，<br />
+            獨釣寒江雪。
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="text-center text-ig-start bg-light text-muted mt-5">
+        <div class="text-center p-4">
+          © 2025 Copyright
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
