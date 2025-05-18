@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga's Website</title>
+
+  <!-- 英文字體：Winky Rough -->
+  <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <!-- 中文字體：LXGW WenKai Mono TC -->
+  <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+
+  <!-- 引入 Google Fonts 英文字體 Bungee Tint -->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+
+  <!-- 引入 Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+  <style>
+    /* 通用字型設定：中英文統一使用 */
+    body, h1, h2, h3, h4, h5, h6, .navbar, .dropdown-menu, footer, .btn, .form-control {
+      font-family: "Winky Rough", "LXGW WenKai Mono TC", sans-serif !important;
+    }
+
+    body {
+      font-size: 1.25rem;
+    }
+
+    .navbar-brand, .nav-link, .dropdown-item, footer {
+      font-size: 1.3rem;
+    }
+
+    /* 讓 h1 ~ h6 不被 Bootstrap 預設 serif 字體覆蓋 */
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/Yoga (64 x 64 像素).jpg" alt="Yoga Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+          <!-- Homeworks Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Homeworks
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="0304/index.html">0304</a></li>
+              <li><a class="dropdown-item" href="0311/index.html">0311</a></li>
+              <li><a class="dropdown-item" href="0318/index.html">0318</a></li>
+              <li><a class="dropdown-item" href="0325/index.html">0325</a></li>
+              <li><a class="dropdown-item" href="0408/index.html">0408</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- 搜尋框 -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="container">
+    <!-- 介紹區 -->
+    <div class="p-5 my-4 rounded text-body-emphasis bg-body-secondary">
+      <h1 class="display-5 fst-italic">About me</h1>
+      <p class="lead my-3">嗨！這裡是充滿希望的開心園地！我是曾宥珈，現在就讀國立臺北教育大學，兒童英語教育學系一年級，在這個網站中，我將分享關於我的生活，我喜歡創作、拍照、運動、看書、旅遊、學習新事物，還喜歡可愛的小動物。</p>
+      <p>目前致力於很chill很meaningful的活著，可以找到自己真正熱愛的事物<br>
+        我認為，人不瘋狂枉少年<br>
+        所以 Just be brave and try my best!
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-ig-start bg-light text-muted mt-5">
+    <div class="text-center p-4">
+      © 2025 Copyright
+      <p class="mb-0"><a href="#">Back to top</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS：放在 body 最後 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
