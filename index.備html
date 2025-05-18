@@ -149,8 +149,8 @@
     integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
     crossorigin="anonymous"></script>
 
-  <div class="row mt-5 justify-content-center">
-    <div class="col-md-3 mb-3">
+  <div class="row mt-5">
+    <div class="col-md-3 offset-md-1">
       <div class="card h-100">
         <img src="img/我的網站.png" class="card-img-top" alt="Example Image">
         <div class="card-body">
@@ -161,7 +161,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3 mb-3">
+    <div class="col-md-3 offset-md-1">
       <div class="card h-100">
         <img src="img/這是詐騙.png" class="card-img-top" alt="Example Image">
         <div class="card-body">
@@ -171,7 +171,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3 mb-3">
+    <div class="col-md-3 offset-md-1">
       <div class="card h-100">
         <img src="img/download-ezgif.com-webp-to-png-converter.png" class="card-img-top" alt="Example Image">
         <div class="card-body">
@@ -182,8 +182,8 @@
         </div>
       </div>
     </div>
-    <div class="row mt-5 justify-content-center">
-      <div class="col-md-3 mb-3">
+    <div class="row mt-5">
+      <div class="col-md-3 offset-md-1">
         <div class="card h-100">
           <img src="img/Fight song.webp" class="card-img-top" alt="Example Image">
           <div class="card-body">
@@ -235,4 +235,3 @@
     </div>
   </footer>
 </body>
-         
