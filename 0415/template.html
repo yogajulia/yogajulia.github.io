@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <!-- 英文字體：Winky Rough -->
-<link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
-<!-- 中文字體：LXGW WenKai Mono TC -->
-<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yoga's Website</title>
 
-  <!-- 引入 Bootstrap CSS & JS（只保留一組） -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
-  <!-- 引入 Google Fonts 字型 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
 
-  <!-- 自訂樣式 -->
   <style>
     body {
-  font-family: "Winky Rough", "LXGW WenKai Mono TC", sans-serif;
-  font-size: 1.25rem;
-}
+      font-family: "Winky Rough", "LXGW WenKai Mono TC", sans-serif;
+      font-size: 1.25rem;
+    }
 
-.navbar-brand, .nav-link, .dropdown-menu, footer {
-  font-size: 1.3rem;
-}
+    .navbar-brand, .nav-link, .dropdown-menu, footer {
+      font-size: 1.3rem;
+    }
 
+    /* 如果你想讓 Welcome to Yoga's Website! 使用 Bungee Tint 字體 */
+    .bungee-tint-caption {
+      font-family: "Bungee Tint", sans-serif;
+    }
   </style>
 </head>
-
 <body class="oswald-maincontent">
-
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -53,36 +46,32 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
           </li>
-           <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="../about.html">About</a>
           </li>
 
-          <!-- Homeworks Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Homeworks
             </a>
-          </li>
-          
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="../0304/index.html">0304</a></li>
               <li><a class="dropdown-item" href="../0311/index.html">0311</a></li>
               <li><a class="dropdown-item" href="../0318/index.html">0318</a></li>
               <li><a class="dropdown-item" href="../0325/index.html">0325</a></li>
               <li><a class="dropdown-item" href="../0408/index.html">0408</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
+              <li><a class="dropdown-item" href="../0415/index.html">0415</a></li>
+              <li><a class="dropdown-item" href="../0422/index.html">0422</a></li>
+              <li><a class="dropdown-item" href="../0429/index.html">0429</a></li>
+              <li><a class="dropdown-item" href="../0506/index.html">0506</a></li>
+              <li><a class="dropdown-item" href="../0513/index.html">0513</a></li>
+              <li><a class="dropdown-item" href="../0520/index.html">0520</a></li>
+              <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
+          </ul>
 
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true"></a>
-          </li>
-        </ul>
-
-        <!-- 搜尋框 -->
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -91,21 +80,18 @@
     </div>
   </nav>
 
-  <!-- Content -->
   <div class="container ">
-    <!-- 可加入你的內容 -->
     <p class="bungee-tint-caption">Welcome to Yoga's Website!</p>
+   
+
   </div>
 
-  <!-- Footer -->
   <footer class="text-center text-ig-start bg-light text-muted mt-5">
     <div class="text-center p-4">
       © 2025 Copyright
       <p class="mb-0"><a href="#">Back to top</a></p>
     </div>
   </footer>
-
 </body>
-
-</html>     
+</html>  
     
